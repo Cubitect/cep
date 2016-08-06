@@ -24,7 +24,7 @@
 
 //#define DEBUG
 
-#define PROJECTNAME "cep-alpha 1.0"
+#define PROJECTNAME "cep-alpha 1.0.1"
 
 
 #define INFINITE (0x7fffffff)
