@@ -1,9 +1,9 @@
 /*
  ============================================================================
  Name        : cep.c
- Author      : Cubitect
+ Author      : https://github.com/Cubitect
  Version     : Alpha 1.0.1
- Copyright   : Cubitect
+ Copyright   : GPL 3.0 (https://github.com/Cubitect)
  Description : Chess Engine Project / Chess - Extended Project
  ============================================================================
  */
@@ -18,12 +18,12 @@ int main(int argc, char **argv)
 
    	// stop the i/o buffers interfering communication with the GUI
 	setbuf(stdin, NULL);
-    setbuf(stdout, NULL);
+	setbuf(stdout, NULL);
 
-    InitAll(brd);
+	InitAll(brd);
 
 	printf("%s\n", PROJECTNAME);
-	printf("by Cubitect (2013)\n\n");
+	printf("https://github.com/Cubitect/cep\n\n");
 
 	char line[256];
 	int compSide = Both;
